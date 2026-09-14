@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Salty — фотограф Матвей</title>
+  <meta name="description" content="Salty — фотография Матвея Викарчука. Свадьбы, репортажи и пейзажи. Ереван." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600&family=Manrope:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <!-- Шапка / навигация -->
+  <header class="header" id="header">
+    <div class="container header__inner">
+      <a href="#top" class="logo">Salty<span class="logo__dot">.</span></a>
+
+      <!-- Переключатель языков -->
+      <div class="lang-switcher">
+        <button class="lang-btn lang-btn--active" data-lang="ru" title="Русский">РУ</button>
+        <button class="lang-btn" data-lang="en" title="English">EN</button>
+        <button class="lang-btn" data-lang="hy" title="Հայերեն">HY</button>
+      </div>
+
+      <nav class="nav" id="nav">
+        <a href="#portfolio" class="nav__link" data-key="nav.portfolio">Портфолио</a>
+        <a href="#about" class="nav__link" data-key="nav.about">Обо мне</a>
+        <a href="#services" class="nav__link" data-key="nav.services">Услуги</a>
+        <a href="#contact" class="nav__link" data-key="nav.contact">Контакты</a>
+      </nav>
+
+      <a href="#contact" class="btn btn--small header__cta" data-key="header.contact">Связаться</a>
+
+      <button class="burger" id="burger" aria-label="Открыть меню" aria-expanded="false" aria-controls="nav">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- Герой -->
+  <section class="hero" id="top">
+    <div class="container hero__inner">
+      <p class="hero__eyebrow" data-key="hero.eyebrow">Фотограф · Ереван</p>
+      <h1 class="hero__title" data-key="hero.title">
+        Ловлю свет<br />
+        в момент,<br />
+        когда рождается чувство
+      </h1>
+      <p class="hero__text" data-key="hero.subtitle">
+        Свадьбы, репортажи и пейзажи — моменты, которые не повторяются. Для меня важно ловить не позу, а суть.
+      </p>
+      <div class="hero__actions">
+        <a href="#portfolio" class="btn" data-key="hero.cta1">Смотреть портфолио</a>
+        <a href="#contact" class="btn btn--ghost" data-key="hero.cta2">Обсудить съёмку</a>
+      </div>
+    </div>
+    <div class="hero__frame" aria-hidden="true"></div>
+  </section>
+
+  <!-- Портфолио -->
+  <section id="portfolio" class="portfolio">
+    <div class="container">
+      <div class="section-head">
+        <h2 class="section-title" data-key="portfolio.title">Портфолио</h2>
+        <p class="section-sub" data-key="portfolio.subtitle">Избранные кадры</p>
+      </div>
+
+      <div class="portfolio__grid" id="portfolioGrid">
+        <button class="portfolio__item portfolio__item--tall" data-full="images/portfolio-1.jpg">
+          <img src="images/portfolio-1.jpg" alt="Свадебная съёмка" loading="lazy" />
+        </button>
+        <button class="portfolio__item" data-full="images/portfolio-2.jpg">
+          <img src="images/portfolio-2.jpg" alt="Природа и пейзаж" loading="lazy" />
+        </button>
+        <button class="portfolio__item" data-full="images/portfolio-3.jpg">
+          <img src="images/portfolio-3.jpg" alt="Репортажная съёмка" loading="lazy" />
+        </button>
+        <button class="portfolio__item portfolio__item--wide" data-full="images/portfolio-4.jpg">
+          <img src="images/portfolio-4.jpg" alt="Пейзаж" loading="lazy" />
+        </button>
+        <button class="portfolio__item" data-full="images/portfolio-5.jpg">
+          <img src="images/portfolio-5.jpg" alt="Момент" loading="lazy" />
+        </button>
+        <button class="portfolio__item portfolio__item--tall" data-full="images/portfolio-6.jpg">
+          <img src="images/portfolio-6.jpg" alt="Портрет" loading="lazy" />
+        </button>
+        <button class="portfolio__item" data-full="images/portfolio-7.jpg">
+          <img src="images/portfolio-7.jpg" alt="Свадебный момент" loading="lazy" />
+        </button>
+        <button class="portfolio__item portfolio__item--wide" data-full="images/portfolio-8.jpg">
+          <img src="images/portfolio-8.jpg" alt="Природа" loading="lazy" />
+        </button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Обо мне -->
+  <section id="about" class="about">
+    <div class="container about__inner">
+      <div class="about__media">
+  <img src="images/matvey.jpg" alt="Фотограф Матвей Викарчук">
+</div>
+      <div class="about__content">
+        <h2 class="section-title" data-key="about.title">Обо мне</h2>
+        <p class="about__text" data-key="about.intro">
+          Викарчук Матвей Денисович — фотограф, Вот уже несколько лет я ловлю моменты на свадьбах, репортажах и в природе. Каждый кадр для меня — это разговор между светом и временем, где я просто внимательно слушаю.
+        </p>
+        <ul class="about__facts">
+          <li><span data-key="about.fact1">Опыт</span><span data-key="about.fact1_val">5+ лет съёмки</span></li>
+          <li><span data-key="about.fact2">Город</span><span data-key="about.fact2_val">Ереван, выезд по Кавказу</span></li>
+          <li><span data-key="about.fact3">Специализация</span><span data-key="about.fact3_val">Свадьбы, репортажи, природа</span></li>
+          <li><span data-key="about.fact4">Стиль</span><span data-key="about.fact4_val">Моменты, а не позы</span></li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- Услуги -->
+  <section id="services" class="services">
+    <div class="container">
+      <div class="section-head">
+        <h2 class="section-title" data-key="services.title">Услуги</h2>
+        <p class="section-sub" data-key="services.subtitle">Форматы съёмки и стоимость</p>
+      </div>
+
+      <div class="services__list">
+        <article class="service-card">
+          <h3 class="service-card__title" data-key="services.service1">Сессия</h3>
+          <p class="service-card__desc" data-key="services.service1_desc">
+            1–1,5 часа, одна локация, обработка 15–20 кадров. Идеально для личного архива.
+          </p>
+          <p class="service-card__price" data-key="services.service1_price">от 25 000 ֏</p>
+        </article>
+
+        <article class="service-card">
+          <h3 class="service-card__title" data-key="services.service2">Репортаж</h3>
+          <p class="service-card__desc" data-key="services.service2_desc">
+            Съёмка мероприятия 3+ часа. Я ловлю все моменты, не ставя никого перед камерой.
+          </p>
+          <p class="service-card__price" data-key="services.service2_price">от 45 000 ֏</p>
+        </article>
+
+        <article class="service-card">
+          <h3 class="service-card__title" data-key="services.service3">Свадебный день</h3>
+          <p class="service-card__desc" data-key="services.service3_desc">
+            От сборов до банкета. Полная история вашего дня, цветокоррекция и приватная онлайн-галерея.
+          </p>
+          <p class="service-card__price" data-key="services.service3_price">от 120 000 ֏</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- Контакты -->
+  <section id="contact" class="contact">
+    <div class="container contact__inner">
+      <div>
+        <h2 class="section-title" data-key="contact.title">Контакты</h2>
+        <p class="contact__lead" data-key="contact.lead">
+          Расскажите мне о вашей съёмке — отвечу в течение дня.
+        </p>
+        <p class="contact__text">
+          <span data-key="contact.phone">Телефон</span>: <a href="tel:+37493516054">+374 93 516 054</a><br />
+          <span data-key="contact.email">Email</span>: <a href="mailto:vikarchuk_m@bk.ru">vikarchuk_m@bk.ru</a>
+        </p>
+      </div>
+
+      <form class="contact-form" id="contactForm" novalidate>
+        <div class="contact-form__row">
+          <label for="name" data-key="contact.form_name">Имя</label>
+          <input type="text" id="name" name="name" data-placeholder-key="contact.form_name_placeholder" placeholder="Как к вам обращаться" required />
+        </div>
+        <div class="contact-form__row">
+          <label for="contact-way" data-key="contact.form_contact">Телефон или способ связи</label>
+          <input type="text" id="contact-way" name="contact-way" data-placeholder-key="contact.form_contact_placeholder" placeholder="+374 ... или другое" required />
+        </div>
+        <div class="contact-form__row">
+          <label for="message" data-key="contact.form_message">Сообщение</label>
+          <textarea id="message" name="message" rows="4" data-placeholder-key="contact.form_message_placeholder" placeholder="Тип съёмки, дата, место"></textarea>
+        </div>
+        <button type="submit" class="btn contact-form__submit" data-key="contact.form_submit">Отправить</button>
+        <p class="contact-form__status" id="formStatus" role="status" aria-live="polite"></p>
+      </form>
+    </div>
+  </section>
+
+  <!-- Подвал -->
+  <footer class="footer">
+    <div class="container footer__inner">
+      <p class="footer__text" data-key="footer.text">© 2026 Salty. ИНН: [1124020926]. Все права защищены.</p>
+      <div style="display: flex; gap: 20px; font-size: 13px; align-items: center;">
+        <a href="pages/privacy-policy.html" style="color: var(--ink-faint); text-decoration: none;">Политика конфиденциальности</a>
+        <a href="pages/terms-of-service.html" style="color: var(--ink-faint); text-decoration: none;">Условия использования</a>
+        <a href="#top" class="footer__top" data-key="footer.top">Наверх ↑</a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Лайтбокс для портфолио -->
+  <div class="lightbox" id="lightbox" hidden>
+    <button class="lightbox__close" id="lightboxClose" aria-label="Закрыть">✕</button>
+    <img src="" alt="" class="lightbox__img" id="lightboxImg" />
+  </div>
+
+  <!-- Подключение скриптов -->
+  <script src="js/i18n.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
