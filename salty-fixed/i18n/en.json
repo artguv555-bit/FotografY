@@ -1,0 +1,65 @@
+{
+  "header": {
+    "contact": "Contact"
+  },
+  "hero": {
+    "eyebrow": "Photographer · Yerevan",
+    "title": "I catch light\nat the moment\nfeeling is born",
+    "subtitle": "Weddings, reportage, and landscapes—moments that don't repeat. I capture feeling, not poses.",
+    "cta1": "View Portfolio",
+    "cta2": "Discuss a Shoot"
+  },
+  "portfolio": {
+    "title": "Portfolio",
+    "subtitle": "Selected shots"
+  },
+  "about": {
+    "title": "About Me",
+    "intro": "Matvey Vikarchuk — photographer behind the Salty project. For several years, I've been capturing moments at weddings, events, and in nature. Every frame is a conversation between light and time—I simply listen carefully.",
+    "fact1": "Experience",
+    "fact1_val": "5+ years of shooting",
+    "fact2": "Location",
+    "fact2_val": "Yerevan, available for travel",
+    "fact3": "Specialization",
+    "fact3_val": "Weddings, reportage, landscape",
+    "fact4": "Approach",
+    "fact4_val": "Moments, not poses"
+  },
+  "services": {
+    "title": "Services",
+    "subtitle": "Shoot formats and rates",
+    "service1": "Session",
+    "service1_desc": "1–1.5 hours, one location, 15–20 edited images. Perfect for personal archive.",
+    "service1_price": "from 25,000 ֏",
+    "service2": "Reportage",
+    "service2_desc": "Event coverage 3+ hours. I capture all moments naturally, no staging.",
+    "service2_price": "from 45,000 ֏",
+    "service3": "Wedding Day",
+    "service3_desc": "From preparations to reception. Full story of your day, color correction, private online gallery.",
+    "service3_price": "from 120,000 ֏"
+  },
+  "contact": {
+    "title": "Contact",
+    "lead": "Tell me about your shoot—I'll respond within a day.",
+    "phone": "Phone",
+    "email": "Email",
+    "form_name": "Name",
+    "form_name_placeholder": "Your name",
+    "form_contact": "Phone or contact method",
+    "form_contact_placeholder": "+374 ... or other",
+    "form_message": "Message",
+    "form_message_placeholder": "Shoot type, date, location",
+    "form_submit": "Send",
+    "form_success": "Thank you! Message sent, I'll be in touch soon."
+  },
+  "footer": {
+    "text": "© 2026 Salty. All rights reserved.",
+    "top": "Back to top ↑"
+  },
+  "nav": {
+    "portfolio": "Portfolio",
+    "about": "About",
+    "services": "Services",
+    "contact": "Contact"
+  }
+}
